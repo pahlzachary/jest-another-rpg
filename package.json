@@ -2,9 +2,12 @@
   "name": "package.json",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/pahlzachary/jest-another-rpg/issues"
   },
-  "homepage": "https://github.com/pahlzachary/jest-another-rpg#readme"
+  "homepage": "https://github.com/pahlzachary/jest-another-rpg#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
